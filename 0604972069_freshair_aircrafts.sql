@@ -1,0 +1,56 @@
+CREATE DATABASE  IF NOT EXISTS `0604972069_freshair` /*!40100 DEFAULT CHARACTER SET utf8 */;
+USE `0604972069_freshair`;
+-- MySQL dump 10.13  Distrib 5.7.12, for Win64 (x86_64)
+--
+-- Host: tsuts.tskoli.is    Database: 0604972069_freshair
+-- ------------------------------------------------------
+-- Server version	5.7.14-log
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+/*!40103 SET @OLD_TIME_ZONE=@@TIME_ZONE */;
+/*!40103 SET TIME_ZONE='+00:00' */;
+/*!40014 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0 */;
+/*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
+/*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
+/*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
+
+--
+-- Table structure for table `aircrafts`
+--
+
+DROP TABLE IF EXISTS `aircrafts`;
+/*!40101 SET @saved_cs_client     = @@character_set_client */;
+/*!40101 SET character_set_client = utf8 */;
+CREATE TABLE `aircrafts` (
+  `aircraftID` char(6) NOT NULL,
+  `aircraftType` varchar(35) DEFAULT NULL,
+  `maxNumberOfPassangers` smallint(6) DEFAULT NULL,
+  `enteredService` date DEFAULT NULL,
+  `aircraftName` varchar(55) DEFAULT NULL,
+  PRIMARY KEY (`aircraftID`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+/*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `aircrafts`
+--
+
+LOCK TABLES `aircrafts` WRITE;
+/*!40000 ALTER TABLE `aircrafts` DISABLE KEYS */;
+INSERT INTO `aircrafts` VALUES ('TF-ASA','Airbus A380',530,'2013-01-01',NULL),('TF-BRA','Airbus A320',168,'2013-01-01',NULL),('TF-BUS','Boeing 777',269,'2013-01-01',NULL),('TF-CHM','Boeing 757',183,'2013-01-01',NULL),('TF-CNA','Boeing 757',180,'2013-01-01',NULL),('TF-ELP','Airbus A330',264,'2013-01-01',NULL),('TF-GRT','Boeing 757',183,'2013-01-01',NULL),('TF-GSF','Boeing 757',210,'2013-01-01',NULL),('TF-HUX','Airbus A320',150,'2013-01-01',NULL),('TF-LIN','Airbus A320',171,'2013-01-01',NULL),('TF-LOK','Boeing 757',183,'2013-01-01',NULL),('TF-LUR','Airbus A350',336,'2013-01-01',NULL),('TF-LUS','Boeing 757',180,'2013-01-01',NULL),('TF-MUR','Airbus A320',171,'2013-01-01',NULL),('TF-NEI','Boeing 787',219,'2013-01-01',NULL),('TF-PHY','Boeing 757',183,'2013-01-01',NULL),('TF-RUM','Airbus A320',171,'2013-01-01',NULL),('TF-TUR','Airbus A380',530,'2013-01-01',NULL),('TF-WIN','Airbus A320',168,'2013-01-01',NULL),('TF-YES','Boeing 757',216,'2013-01-01',NULL);
+/*!40000 ALTER TABLE `aircrafts` ENABLE KEYS */;
+UNLOCK TABLES;
+/*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
+
+/*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
+/*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
+/*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
+/*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
+
+-- Dump completed on 2016-11-21 12:43:52
