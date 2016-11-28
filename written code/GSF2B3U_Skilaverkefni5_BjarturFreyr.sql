@@ -72,15 +72,15 @@ CREATE TABLE aircraftSpecifications
     serviceCeiling int, #m
     maximumFuelCapacity int, #liters
     engineCount int,
-    engineSpecificationsID int,
-    totalThrust int, #kN
-    
+    turbopropenginespecificationsID int,
+    turbojetenginespecificationsID int,
     constraint aircraftSpecificationsPK primary key(aircraftspecificationsID),
-    constraint aircraftSpecificationsFK foreign key(engineSpecificationsID) references engineSpecifications(engineSpecificationsID)
+    constraint aircraftturbopropSpecificationsFK foreign key(turbopropengineSpecificationsID) references turbopropengineSpecifications(turbopropengineSpecificationsID),
+    constraint aircraftturbojetSpecificationsFK foreign key(turbojetengineSpecificationsID) references turbojetengineSpecifications(turbojetengineSpecificationsID)
 );
 
-DROP TABLE IF EXISTS engineSpecifications;
-CREATE TABLE engineSpecifications
+DROP TABLE IF EXISTS turbopropenginespecifications;
+CREATE TABLE turbopropenginespecifications
 (
 	engineSpecificationsID int auto_increment,
     manufacturer varchar(255),
@@ -101,6 +101,13 @@ CREATE TABLE engineSpecifications
     dryweight int, #pounds
     constraint engineSpecificationsPK primary key(engineSpecificationsID)
 );
+
+DROP TABLE IF EXISTS turbojetenginespecifications;
+CREATE TABLE turbojetenginespecifications
+(
+	engineSpecificationsID int auto_increment,
+    
+)
 
 #-----------------------------MANUAL INSERTS------------------------------
 INSERT INTO Jobs (jobsTitle) VALUES ('Chief Executive Officer'),
@@ -149,7 +156,7 @@ before update on flights_has_staff
 for each row
 begin
 	declare stopmessage varchar(255);
-    if () then
+    if (new.mainCabinAttendant = 1 AND new.staff_personID != ANY(SELECT personID FROM staff WHERE jobsID = 9)) then
 		set stopmessage = concat('Aðeins flugþjónar geta verið aðalflugþjónar. Vinsamlegast reyndu aftur.');
         signal sqlstate '45000' set message_text = stopmessage;
     end if;
@@ -189,6 +196,15 @@ DELIMITER $$
 CREATE PROCEDURE createStaff(person_ID varchar(35), first_Name varchar(75), last_Name varchar(75), date_Of_Birth datetime, countryOfResidence char(2), jobsID int)
 BEGIN
 	INSERT INTO Staff VALUES (person_ID,first_Name,last_Name,date_Of_Birth,countryOfResidence,jobsID);
+END $$
+DELIMITER ;
+
+DROP PROCEDURE IF EXISTS createFlightCrew; #Áhafnaskráning
+DELIMITER $$
+CREATE PROCEDURE createFlightCrew(captain_ID varchar(35), firstofficer_ID varchar(35), flight_code int)
+BEGIN
+	call addFlightDeck(flight_code, captain_ID, firstofficer_ID);
+    call addCabinCrew(flight_code);
 END $$
 DELIMITER ;
 
@@ -254,7 +270,7 @@ BEGIN
 END $$
 DELIMITER ;
 
-DROP PROCEDURE IF EXISTS AddFlightGeneralStaff; #Áhafnaskráning
+DROP PROCEDURE IF EXISTS AddFlightGeneralStaff; #skrá aðra sem koma að ákveðnu flugi
 DELIMITER $$
 CREATE PROCEDURE AddFlightGeneralStaff(flight_number CHAR(5), flight_date DATE, person_id VARCHAR(35))
 BEGIN
@@ -339,4 +355,3 @@ call addCabinCrew(20); #FLIGHTCODE
 call UpdateCabinCrew(1,'US3048812'); #FLIGHTCODE, PERSONID
 call crewMemberHistory('IS3976809'); #PERSONID
 call AddFlightGeneralStaff('FA501','2016-08-1','DE7438966'); #FLIGHTNUMBER, FLIGHTDATE, PERSONID
-call createAircraft ('Airbus','A380','800',
