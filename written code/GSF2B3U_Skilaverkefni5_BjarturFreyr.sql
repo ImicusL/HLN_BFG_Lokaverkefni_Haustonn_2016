@@ -186,6 +186,20 @@ begin
         signal sqlstate '45000' set message_text = stopmessage;
     end if;
 end $$
+delimiter ;                                                                           
+
+DROP TRIGGER IF EXISTS enforceScheduleDays;
+DELIMITER $$
+CREATE TRIGGER enforceScheduleDays
+BEFORE INSERT ON flights
+FOR EACH ROW
+BEGIN
+	declare stopmessage varchar(255);
+	IF ((weekday(new.flightDate) + 1) != (SELECT scheduleweekdays.weekday FROM scheduleweekdays WHERE scheduleweekdays.flightNumber = new.flightNumber)) THEN
+		set stopmessage	= concat('Please only insert flights which match the scheduleweekdays table.');
+        signal sqlstate '45000' set message_text = stopmessage;
+	END IF;
+END $$
 delimiter ;
 
 #-----------------------------PROCEDURES------------------------------
@@ -350,9 +364,75 @@ DROP PROCEDURE IF EXISTS addAirportCoords;
 DELIMITER $$ 
 CREATE PROCEDURE addAirportCoords(IATA_code CHAR(3), Airport_coordX DOUBLE, Airport_coordY DOUBLE)
 BEGIN
-UPDATE airports SET coordinateX = Airport_coordX, coordinateY = Airport_coordY WHERE IATAcode = IATA_code;
+	UPDATE airports SET coordinateX = Airport_coordX, coordinateY = Airport_coordY WHERE IATAcode = IATA_code;
 END $$
 DELIMITER ;
+
+drop procedure if exists jsonexport;
+DELIMITER $$
+create procedure jsonexport(aircraft_ID char(6))
+BEGIN
+	declare seatnumberingandletter varchar(5);
+    declare seatingclass varchar(255);
+    declare seatinglevel char(2);
+    declare body longtext;
+    
+    declare done boolean default false;
+    declare cursorino cursor for SELECT CONCAT(aircraftseats.rowNumber, aircraftseats.seatNumber), classes.className, aircraftseats.deck FROM aircraftseats JOIN classes ON aircraftseats.classID = classes.classID WHERE aircraftseats.aircraftID = aircraft_ID;
+	declare continue handler for not found set done = true;	
+    
+    set body = '[\n';
+    
+	open cursorino;
+	read_loop:loop
+		fetch cursorino into seatnumberingandletter,seatingclass,seatinglevel;
+		if done then
+			leave read_loop;
+		end if;
+		set body = concat(body,'\t{\n\t\t\'seatNumberAndLetter\' : "',seatnumberingandletter,'",\n\t\t\'className\' : "',seatingclass,'",\n\t\t\'deck\' : "',seatinglevel,'"\n\t},\n');
+	end loop;
+	close cursorino;
+    
+    
+    set body = concat(SUBSTRING(body, 1, CHAR_LENGTH(body) - 2),'\n]\n');
+    
+    select body as jsonfinished;
+END $$
+DELIMITER ;
+
+drop procedure if exists xmlexport;
+DELIMITER $$
+create procedure xmlexport(aircraft_ID char(6))
+BEGIN
+	declare seatnumberingandletter varchar(5);
+    declare seatingclass varchar(255);
+    declare seatinglevel char(2);
+    declare body longtext;
+    
+    declare done boolean default false;
+    declare cursorino cursor for SELECT CONCAT(aircraftseats.rowNumber, aircraftseats.seatNumber), classes.className, aircraftseats.deck FROM aircraftseats JOIN classes ON aircraftseats.classID = classes.classID WHERE aircraftseats.aircraftID = aircraft_ID;
+	declare continue handler for not found set done = true;	
+    
+    set body = '<DATA>\n\n';
+    
+	open cursorino;
+	read_loop:loop
+		fetch cursorino into seatnumberingandletter,seatingclass,seatinglevel;
+		if done then
+			leave read_loop;
+		end if;
+		set body = concat(body,'\t<ROW>\n\t\t<seatNumberAndLetter>',seatnumberingandletter,'</seatNumberAndLetter>\n\t\t<className>',seatingclass,'</className>\n\t\t<deck>',seatinglevel,'</deck>\n\t</ROW>\n\n');
+	end loop;
+	close cursorino;
+    
+    set body = concat(SUBSTRING(body, 1, CHAR_LENGTH(body) - 1),'</DATA>\n');
+    
+    select body as xmlfinished;
+END $$
+DELIMITER ;
+
+CALL xmlexport('TF-LUR');
+CALL jsonexport('TF-LUR');
 
 #-----------------------------OTHER---------------------------------
 UPDATE `0604972069_freshair`.`aircrafts` SET `aircraftType`='5' WHERE `aircraftID`='TF-NEI';
@@ -676,3 +756,5 @@ call addCabinCrew(20); #FLIGHTCODE
 call UpdateCabinCrew(1,'US3048812'); #FLIGHTCODE, PERSONID
 call crewMemberHistory('IS3976809'); #PERSONID
 call AddFlightGeneralStaff('FA501','2016-08-1','DE7438966'); #FLIGHTNUMBER, FLIGHTDATE, PERSONID
+INSERT INTO flights(flightCode, flightDate, flightNumber, aircraftID, flightTime) VALUES(DEFAULT, '2016-12-06', 'FA101', 'TF-BRA', '03:00:00'); #tuesday, doesnt work!
+INSERT INTO flights(flightCode, flightDate, flightNumber, aircraftID, flightTime) VALUES(DEFAULT, '2016-12-05', 'FA101', 'TF-BRA', '03:00:00'); #monday, works!
