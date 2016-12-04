@@ -1,0 +1,5 @@
+Ég bjó til addCabinCrew.
+Færði yfir NumberOfSeats, GetIDwFlightCode og flightcodewithdateandnumber functions frá fyrra verkefni.
+kláraði addFlightDeck.
+Bjó til dummy procedure til að hafa til hliðar.
+Joinaði Github verkefnið og skrifaði Github wiki.

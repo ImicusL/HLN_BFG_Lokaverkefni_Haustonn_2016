@@ -1,0 +1,5 @@
+Fiktaði með addCabinCrew.. gerði unique index svo að manneskja getur ekki verið á sama flugi tvisvar. Er að reyna að randomiza unique per flight,
+held að það þarf temp table en er ekki alveg að fatta það eins og stendur. Bætti líka við mainCabinAttendant í flights_has_staff table-ið
+og líka addCabinCrew. það virkar vel.
+
+lagaði líka flights_has_staff create table skipunina.

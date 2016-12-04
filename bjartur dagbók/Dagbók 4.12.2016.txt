@@ -1,0 +1,4 @@
+ég bjó til JSON og XML parser sem skilar select skipun með sætaröð, sætanúmeri, class og deck. Reyndi að save-a það á xml og json file en serverinn leyfir það ekki..
+sem betur fer er hægt að taka select skipunina og paste-a hana inn í json skjal. svínvirkar.
+Bjó til trigger sem kemur í veg fyrir það að búa til flight sem er ekki með scheduled weekday. Gagnagrunnurinn er hannaður þannig að aðeins má búa til flight
+þar sem weekday og scheduledweekday eru með ákveðið flightnumber.

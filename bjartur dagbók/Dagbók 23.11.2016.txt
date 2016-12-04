@@ -1,0 +1,5 @@
+Mikið gerðist í dag. Ég kláraði loksins addCabinCrew alveg og það virkar vel. Gerði
+líka UpdateCabinCrew sem uppfærir staka manneskju, og CrewMemberHistory, sem er basically
+huge JOIN skipun sem sínir feril starfsmanns. Haraldur bjó til AddFlightGeneralStaff.
+Hann vildi að callið myndi taka inn flightnumber og flightdate í staðinn fyrir flightcode.
+Byrjaði líka á maincabinattendantinsertcheck triggerunum. Klára þá seinna.

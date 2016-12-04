@@ -1,0 +1,3 @@
+hardkóðaði inn airplanespecifications fyrir airbus og boeing. Greinilega er erfitt að komast að airplane gögnum á netinu án þess að grafa í gegnum einhverja PDFs,
+maður myndi þurfa að borga til að komast að einhverjum database.. sem betur fer höfum við aðeins 7 flugvélatýpur í gagnagrunninum.
+Haraldur kláraði að setja inn GPS coordinates fyrir alla flugvellina.

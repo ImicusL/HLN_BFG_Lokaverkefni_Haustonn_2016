@@ -1,0 +1,2 @@
+Pushaði öllu sem ég var að vinna í á github. Researchaði aðeins á netinu um flugvélar og flugvélamótora. Fann excel skjöl sem halda utan um þannig gögn og breytti þeim í csv skjöl.
+Hannaði og bjó til tables sem halda utan um þau gögn. Breyttu öðrum tables aðeins og kláraði triggerana.
