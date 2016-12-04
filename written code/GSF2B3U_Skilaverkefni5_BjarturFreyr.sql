@@ -304,10 +304,9 @@ BEGIN
 END $$
 DELIMITER ;
 
-DROP PROCEDURE IF EXISTS createAircraft; #i have become DIE(); the destroyer of my keyboard
+DROP PROCEDURE IF EXISTS createAircraft;
 DELIMITER $$
 CREATE PROCEDURE createAircraft(man varchar(255),
-                                ait varchar(255),
                                 var varchar(255),
                                 coc tinyint,
                                 tys int,
@@ -340,10 +339,18 @@ CREATE PROCEDURE createAircraft(man varchar(255),
                                 sc int,
                                 mfc int,
                                 ec int,
-                                esi int,
-                                tt int)
+                                propenginespecificationsid varchar(255),
+                                jetenginespecificationsid varchar(255))
 BEGIN
-	INSERT INTO aircraftspecifications VALUES (DEFAULT, man, ait, var, coc, tys, exl, leo, wis, hei, wbs, wtr, fuw, fuh, mcw, cl, wa, ar, ws, mrw, mtw, mlw, mfw, oew, msp, mcv, mos, mds, cs, tao, ls, rng, sc, mfc, ec, esi, tt);
+	INSERT INTO aircraftspecifications VALUES (DEFAULT, man, var, coc, tys, exl, leo, wis, hei, wbs, wtr, fuw, fuh, mcw, cl, wa, ar, ws, mrw, mtw, mlw, mfw, oew, msp, mcv, mos, mds, cs, tao, ls, rng, sc, mfc, ec, propenginespecificationsid, jetenginespecificationsid);
+END $$
+DELIMITER ;
+
+DROP PROCEDURE IF EXISTS addAirportCoords;
+DELIMITER $$ 
+CREATE PROCEDURE addAirportCoords(IATA_code CHAR(3), Airport_coordX DOUBLE, Airport_coordY DOUBLE)
+BEGIN
+UPDATE airports SET coordinateX = Airport_coordX, coordinateY = Airport_coordY WHERE IATAcode = IATA_code;
 END $$
 DELIMITER ;
 
@@ -372,7 +379,22 @@ ALTER TABLE flights_has_staff ADD COLUMN mainCabinAttendant TINYINT(1) NOT NULL 
 ALTER TABLE flights_has_staff ADD UNIQUE distinctperson(flights_flightCode, staff_personID); #make sure we dont have some guy working double time
 ALTER TABLE aircrafts CHANGE COLUMN aircraftType aircraftSpecificationsID int;
 ALTER TABLE aircrafts DROP COLUMN maxNumberOfPassangers;
-call createAircraft();
+ALTER TABLE aircraftspecifications DROP COLUMN aircraftType;
+
+#Airbus A380
+call createAircraft('Airbus','A380-841',2,544,868,72.72,79.75,24.09,31.88,14.34,7.14,8.41,6.50,49.9,845,7.53,33.5,577,575,394,369,276.8,84,184,945,1020,903,3000,240,15200,13100,320000,4,null,650);
+#Airbus A350
+call createAircraft('Airbus','A350-900',2,325,440,66.8,64.75,17.05,null,null,5.96,6.09,5.61,null,442,9.49,31.9,null,280,207,195.7,145.1,null,162,950,950,904,2200,null,15000,13100,140795,2,null,655);
+#Airbus A330
+call createAircraft('Airbus','A330-223',2,246,406,58.82,60.3,17.39,12.61,null,5.64,5.64,5.18,null,361,10.06,30,null,242,182,170,120,null,132.4,913,913,870,2770,252,13450,12500,139090,2,null,468);
+#Airbus A320
+call createAircraft('Airbus','A320',2,186,195,37.57,35.8,11.76,12.64,7.59,3.95,4.14,3.7,null,122,null,25,null,78,66,62.5,42.6,null,37.4,871,871,829,2100,null,7800,12500,27200,2,null,70);
+#Boeing 787
+call createAircraft('Boeing','787-9',2,406,420,62.81,60.12,17.02,null,null,5.77,5.94,5.49,null,360,10.03,32.2,null,254,192,181,129,null,172.5,945,945,903,2900,null,14140,13100,126372,2,null,655);
+#Boeing 777
+call createAircraft('Boeing','777-200',2,305,440,63.73,60.93,18.5,null,null,6.20,null,5.84,null,null,null,31.6,null,247,202,null,136,null,150.9,945,945,892,2440,null,9700,13100,117340,2,null,273);
+#Boeing 757
+call createAircraft('Boeing','757-200',2,200,239,47.3,38,13.6,null,null,null,null,3.54,36.09,185,7.8,25,null,115,92,84,58,null,43.3,918,918,854,2070,null,7250,13000,43490,2,null,442);
 
 #-----------------------------CSV INSERTS----------------------------
 #all on one line to prevent accidental spaces during insert
