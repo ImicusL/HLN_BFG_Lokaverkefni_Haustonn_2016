@@ -393,10 +393,9 @@ BEGIN
 	end loop;
 	close cursorino;
     
-    
     set body = concat(SUBSTRING(body, 1, CHAR_LENGTH(body) - 2),'\n]\n');
     
-    select body as jsonfinished;
+    select body as jsonfinished; #INTO OUTFILE '/tmp/export.json';
 END $$
 DELIMITER ;
 
@@ -427,7 +426,7 @@ BEGIN
     
     set body = concat(SUBSTRING(body, 1, CHAR_LENGTH(body) - 1),'</DATA>\n');
     
-    select body as xmlfinished;
+    select body as xmlfinished; #INTO OUTFILE '/tmp/export.xml';
 END $$
 DELIMITER ;
 
