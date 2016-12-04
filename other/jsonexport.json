@@ -1,0 +1,1442 @@
+[
+	{
+		'seatNumberAndLetter' : "1A",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "1B",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "1C",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "1D",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "1E",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "1F",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "2A",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "2B",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "2C",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "2D",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "2E",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "2F",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "3A",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "3B",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "3C",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "3D",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "3E",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "3F",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "4A",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "4B",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "4C",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "4D",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "4E",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "4F",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "5A",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "5B",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "5C",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "5D",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "5E",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "5F",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "6A",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "6B",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "6C",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "6D",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "6E",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "6F",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "7A",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "7B",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "7C",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "7D",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "7E",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "7F",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "8A",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "8B",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "8C",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "8D",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "8E",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "8F",
+		'className' : "Business Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "9A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "9B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "9C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "9D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "9E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "9F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "9G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "9H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "9I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "10A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "10B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "10C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "10D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "10E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "10F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "10G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "10H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "10I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "11A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "11B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "11C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "11D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "11E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "11F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "11G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "11H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "11I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "12A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "12B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "12C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "12D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "12E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "12F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "12G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "12H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "12I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "13A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "13B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "13C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "13D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "13E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "13F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "13G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "13H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "13I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "14A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "14B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "14C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "14D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "14E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "14F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "14G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "14H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "14I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "15A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "15B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "15C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "15D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "15E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "15F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "15G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "15H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "15I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "16A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "16B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "16C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "16D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "16E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "16F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "16G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "16H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "16I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "17A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "17B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "17C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "17D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "17E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "17F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "17G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "17H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "17I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "18A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "18B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "18C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "18D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "18E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "18F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "18G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "18H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "18I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "19A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "19B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "19C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "19D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "19E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "19F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "19G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "19H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "19I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "20A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "20B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "20C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "20D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "20E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "20F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "20G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "20H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "20I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "21A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "21B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "21C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "21D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "21E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "21F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "21G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "21H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "21I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "22A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "22B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "22C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "22D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "22E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "22F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "22G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "22H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "22I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "23A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "23B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "23C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "23D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "23E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "23F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "23G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "23H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "23I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "24A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "24B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "24C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "25A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "25B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "25C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "25D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "25E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "25F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "25G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "25H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "25I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "26A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "26B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "26C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "26D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "26E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "26F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "26G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "26H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "26I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "27A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "27B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "27C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "27D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "27E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "27F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "27G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "27H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "27I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "28A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "28B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "28C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "28D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "28E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "28F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "28G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "28H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "28I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "29A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "29B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "29C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "29D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "29E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "29F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "29G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "29H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "29I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "30A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "30B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "30C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "30D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "30E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "30F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "30G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "30H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "30I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "31A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "31B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "31C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "31D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "31E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "31F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "31G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "31H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "31I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "32A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "32B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "32C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "32D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "32E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "32F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "32G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "32H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "32I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "33A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "33B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "33C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "33D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "33E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "33F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "33G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "33H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "33I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "34A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "34B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "34C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "34D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "34E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "34F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "34G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "34H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "34I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "35A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "35B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "35C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "35D",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "35E",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "35F",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "35G",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "35H",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "35I",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "36A",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "36B",
+		'className' : "Economy Class",
+		'deck' : "na"
+	},
+	{
+		'seatNumberAndLetter' : "36C",
+		'className' : "Economy Class",
+		'deck' : "na"
+	}
+]
